@@ -1,0 +1,60 @@
+.filter {
+    max-width: 60%;
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 1px solid black;
+    max-width: 30%;
+    height: 30px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+button {
+    width: 25%;
+}
+
+.jobs{
+	list-style: none;
+	max-width: 60%;
+}	
+
+li {
+    border: 1px solid black;
+    border-radius: 2px;
+	position: relative;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding: 15px 25px;
+	box-shadow: 0 5px 10px 0 rgba(134, 134, 134, 0.3);
+    }
+
+.type-and-company {
+    font-weight: bold;
+    color: rgb(0, 129, 54);
+}
+
+.title {
+    font-size: 1.2em;
+    color: rgb(13, 77, 255);
+    margin-right: 70px;
+    line-height: 1.5;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.link {
+    color: rgba(71, 71, 71, 0.568);
+}
+
+
+	
+	
+	
+	
