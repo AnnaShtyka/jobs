@@ -18,8 +18,6 @@ const getFetch = page => {
       response.json()
     )
     .then(job => {
-      // console.log(`job.length: ${job.length}`);
-      // console.log(targetUrl);
       ul.style.height = 500 + 'px';
       ul.style.overflowY = 'scroll';
       job.forEach((element, index) => (element.index = index));
